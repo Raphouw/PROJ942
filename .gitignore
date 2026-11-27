@@ -1,0 +1,14 @@
+# Tout ignorer par défaut, puis autoriser uniquement l'utile
+*
+!*/
+
+!/.gitignore
+!/Requirements.txt
+!/code_py/**/*.py
+!/code_py/READme.md
+
+# Détecteur nécessaire pour faire tourner le code
+!/models/face_detection_yunet_2022mar.onnx
+
+# Sources des diagrammes (texte)
+!/*.mmd
