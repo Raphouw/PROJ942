@@ -1,4 +1,4 @@
-# Tout ignorer par défaut, puis autoriser uniquement l'utile
+# Tout ignorer par dï¿½faut, puis autoriser uniquement l'utile
 *
 !*/
 
@@ -6,9 +6,14 @@
 !/Requirements.txt
 !/code_py/**/*.py
 !/code_py/READme.md
-
-# Détecteur nécessaire pour faire tourner le code
+!/serveur/**/*.py
+!/android/**/*.py
+# Dï¿½tecteur nï¿½cessaire pour faire tourner le code
 !/models/face_detection_yunet_2022mar.onnx
 
 # Sources des diagrammes (texte)
 !/*.mmd
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
